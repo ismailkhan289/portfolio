@@ -5,7 +5,7 @@ import { FaGithub,FaDemocrat } from "react-icons/fa";
 
 
 const Projects = () => {
-  const [cards, serCards]=useState(projects);
+  const [cards]=useState(projects);
     return (
     <>
     <section className="project">
