@@ -5,7 +5,7 @@ const Homepage = () => {
   <>
     <section className="homepage">
         <div className="overlay text-white">
-            <h1 > IZME TECHs</h1> 
+            <h1 > IZME TECH</h1> 
             <p>Full Stack Web Developer</p> 
             <ul>  
                 <li>
@@ -19,6 +19,7 @@ const Homepage = () => {
                     </a>
                 </li>
             </ul>
+            <p>Running Projects</p> 
         </div>
         </section>
     </>
