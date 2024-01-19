@@ -19,7 +19,6 @@ const Homepage = () => {
                     </a>
                 </li>
             </ul>
-            <a src="https://izme-tech.netlify.app/projects"><p>Running Projects</p></a> 
         </div>
         </section>
     </>

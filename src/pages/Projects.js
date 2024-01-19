@@ -9,7 +9,7 @@ const Projects = () => {
     return (
     <>
     <section className="project">
-      <div className="text-white">
+      <div className="">
           <h1 className=""> IZME TECH Projects</h1>  
       </div>
       <div className="cards">
@@ -17,17 +17,19 @@ const Projects = () => {
         {cards.map(({id, title, desc,github,img,demo})=>(
           <article key={id}>
             <div className="border">
-            <img src={img} alt={title}/>
-            <h4>{title}</h4>
-            <p>{desc}</p>
-            <ul>
-              <li>
-                <a className="github" href={github}><FaGithub style={{marginRight:5}} />Github</a>
-              </li>
-              <li>
-                <a className="demo" href={demo}>< FaDemocrat style={{marginRight:5}} />Demo</a>
-              </li>
-            </ul>
+              <div className="image">
+                <img src={img} alt={title}/>
+              </div>
+              <h4>{title}</h4>
+              <p>{desc}</p>
+              <ul>
+                <li>
+                  <a className="github" href={github}><FaGithub style={{marginRight:5}} />Github</a>
+                </li>
+                <li>
+                  <a className="demo" href={demo}>< FaDemocrat style={{marginRight:5}} />Demo</a>
+                </li>
+              </ul>
             </div>
           </article>
         )) }
