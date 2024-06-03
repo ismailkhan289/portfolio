@@ -14,7 +14,7 @@ const Contact = () => {
             <a href= "mailto:izmaelkhan@gmail.com"> <MdEmail />izmaelkhan@gmail.com </a>
           </li>
           <li>
-            <a href= "tel:+923458127647"><FaPhoneAlt />+92 345 8127 647 </a>
+            <a href= "tel:+923458127647"><FaPhoneAlt />+49 178 8246 150 </a>
           </li>
         </ul>
     </div>
