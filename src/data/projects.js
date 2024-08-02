@@ -48,13 +48,5 @@ export const projects=[
         github:"https://github.com/ismailkhan289/FCCDrumMachine",
         img:"./image/drumtable.jpg",
         demo:"https://fccdrummachine1.netlify.app/",
-    },
-    {
-        id:uuidv4(),
-        title:"Workation Home Page",
-        desc:"Workation Home Page develop using Tailwind CSS Library",
-        github:"https://github.com/ismailkhan289/react-tailwindcss",
-        img:"./image/frontPage.jpg",
-        demo:"https://react-tailwindcss-izmetech.netlify.app/",
     }
 ]
